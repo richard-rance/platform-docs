@@ -13,7 +13,10 @@ Make sure the name of all the security schemes in the API overview are human fri
 Also try and add descriptions for the authentication to help the user understand and get started with it. For example:
 
 ```
-Create your own API Key from the user dashboard in the [API Keys](https://example.com/user/api-keys). You'll need an account and an active Pro subscription for the API keys to work.
+Create your own API Key from the user dashboard in the 
+[API Keys](https://example.com/user/api-keys). You'll 
+need an account and an active Pro subscription for 
+the API keys to work.
 ```
 
 Our [Studio documentation on API Security](https://meta.stoplight.io/docs/studio/docs/Design-and-Modeling/10-api-security.md) has more specifics for various different types of creating and managing various different types of security scheme.
@@ -23,8 +26,8 @@ Our [Studio documentation on API Security](https://meta.stoplight.io/docs/studio
 It's important to have short, human-friendly, and self-explanatory names across your API description.
 
 - Stick to a single dictionary, so either British English, American English, or whichever language best serves your intended audience.
-- Avoid Jargon. e.g., Card-number instead of PAN
-- Avoid abbreviations e.g., phone-number instead of tel-no
+- Avoid Jargon. e.g., `Card-number` instead of `PAN`
+- Avoid abbreviations e.g., `phone-number` instead of `tel-no`
 - Stay consistent. 
 
 
