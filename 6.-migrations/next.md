@@ -77,7 +77,7 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 | [Design: Lifecycle Tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                                         | Considering | Add tags to build workflows around your API lifecycle                                                                                     |
 | [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                              | Considering | Create and resolve discussions on API designs and docs                                                                                    |
 | [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                                       | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                                     | Considering | Automatic redirects when docs routes are changed                                                                                          |
+| [~~Docs: Redirects~~](https://roadmap.stoplight.io/c/68-redirects)                                                     | Launched | Automatic redirects when docs routes are changed                                                                                          |
 | [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                             | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
 
 ## FAQ
