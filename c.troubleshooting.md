@@ -26,7 +26,7 @@ presentation of the sidebar, however it can also be a common source of
 confusion.
 
 If you have a `toc.json` file present in your project, double check the contents
-to make sure the files you want to publish are listed. 
+to make sure the files you want to publish are listed.
 
 For more information on this feature, see
 [here](./4.-documentation/d.table-of-contents.md).
@@ -53,10 +53,11 @@ When reviewing the Automation tab, ask yourself if your recent pushes to the
 repository are showing up. If not, it may point to an issue with the webhook
 configuration. Try re-installing the webhook to resolve.
 
-Errors will be highlighted in red. Pending tasks are highlighted in purple. 
+Errors will be highlighted in red. Pending tasks are highlighted in purple.
 
 > If you are seeing errors or other issues, don't hesitate to reach out to
-[support@stoplight.io](mailto:support@stoplight.io) to investigate further.
+> [support@stoplight.io](mailto:support@stoplight.io) to investigate further.
+
 ## Why is there an "Others" section in the sidebar?
 
 If you're seeing an "Others" section in the sidebar of your project documentation...
@@ -68,7 +69,7 @@ Grouping of operations is completed by the use of [tags](https://swagger.io/docs
 <!-- theme: warning -->
 
 > When adding a tag to a model, an [OpenAPI Extension](https://swagger.io/docs/specification/openapi-extensions/) must be used. This can be added using the <i class="fal fa-tags"></i> icon in the editor to apply a tag or manually within code view.
-![x-](assets/images/openapi_extension.png)
+> ![x-](assets/images/openapi_extension.png)
 
 You can find more information on the default order of the project sidebar (as well as how to customize it) [here](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md).
 
@@ -76,13 +77,14 @@ You can find more information on the default order of the project sidebar (as we
 
 If you need to retrieve a file published in Stoplight, the quickest way to do so is using the **Export** buttons found in both Explorer and your project documentation.
 
-***Exporting using Explorer***
+**_Exporting using Explorer_**
 ![Export through Explorer](assets/images/export_explorer.png)
 
-***Exporting within Studio***
+**_Exporting within Studio_**
 ![Export through Studio](assets/images/export_studio.png)
 
 ### What are the differences between Original, Bundled, Dereferenced.
+
 1. Original - is the raw file keeping the $refs
 2. Bundled - resolves remote $refs once, re-referencing the same objects in subsequent references (producing a smaller file)
 3. Dereferenced - resolves all $refs, inserting each resolved reference inline
@@ -99,7 +101,7 @@ The fixed IP address is: **35.226.194.249**
 
 ## What browsers does Stoplight support?
 
-We aim to support the following browsers and minimum versions. 
+We aim to support the following browsers and minimum versions.
 
 |               | Chrome | Safari        | Firefox | Edge          |
 | ------------- | ------ | ------------- | ------- | ------------- |
@@ -115,7 +117,7 @@ If something is not working in a version listed here (or newer) please [contact 
 
 #### Not a Git project and I'm the owner
 
-Local projects in Stoplight are stored in the browser cache. If you are on a different computer/browser, you won't be able to edit the project. 
+Local projects in Stoplight are stored in the browser cache. If you are on a different computer/browser, you won't be able to edit the project.
 
 Preferably [connect to a Git provider](2.-workspaces/configure-git/a.configuring-git.md) that Stoplight supports. Once you've done that go into studio from the browser/computer you used to first create this project, and then promote it to a Git repo.
 
@@ -123,7 +125,7 @@ Preferably [connect to a Git provider](2.-workspaces/configure-git/a.configuring
 
 The Git integration will allow you and your team members (Makers and above) to collaborate on this project. Keep in mind that they would need access to the Git repository as well. Git repositories are very useful once other stakeholders such as developers need access to the API designs and they support a formal review process for your design or documentation workflows via merge requests.
 
-If you can't use a Git provider you'd be limited to using the project from the same browser you first created it from. 
+If you can't use a Git provider you'd be limited to using the project from the same browser you first created it from.
 
 **Note**: Other users in your workspace won't be able to edit a local project.
 
@@ -133,7 +135,7 @@ This could be because you recently updated or cleaned the cache of your browser.
 
 ![Export to OpenAPI](assets/images/export-openapi.png)
 
-## Can't find GitHub Organization 
+## Can't find GitHub Organization
 
 This could be due to missing permissions in GitHub. Navigate to https://github.com/settings/applications and find the Stoplight app. Click on it to go into the settings.
 

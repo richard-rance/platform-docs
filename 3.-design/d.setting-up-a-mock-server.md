@@ -5,7 +5,7 @@ tags: [Design]
 
 # Working with Mock Servers
 
-Stoplight offers free, automatically updated HTTP mock servers for every API published in your workspace. These mock servers simulates real APIs, by providing endpoints and validation rules described in your API description document. 
+Stoplight offers free, automatically updated HTTP mock servers for every API published in your workspace. These mock servers simulates real APIs, by providing endpoints and validation rules described in your API description document.
 
 This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications, whilst the API developers are still writing their code. This can help find and solve problems early on, before the API is built, because changing all that code can be expensive (time is money).
 
@@ -22,7 +22,7 @@ Catching problems early on while you're still just tweaking the API descriptions
 
 ## Interacting with Mock Servers
 
-In the same way that documentation is updated on publish (or on push), mock servers are updated when pushing to the default branch. 
+In the same way that documentation is updated on publish (or on push), mock servers are updated when pushing to the default branch.
 
 To talk to the HTTP mock servers, there's a few options.
 
@@ -36,9 +36,9 @@ Docs and Explorer both have a HTTP Client available in the Try it Now tab. This 
 
 ![Try it Now](../assets/images/enable-mock.png)
 
-Within "Try it Now" you can talk to any server, but if you want to talk to the mock server open up the "Mocking" tab and enable it. Now any requests will be sent to the mock server, so you can get a feel for how this API is going to respond. 
+Within "Try it Now" you can talk to any server, but if you want to talk to the mock server open up the "Mocking" tab and enable it. Now any requests will be sent to the mock server, so you can get a feel for how this API is going to respond.
 
-Pretend it's real, is this a good API? Should you make any changes before you get this out to your team? 
+Pretend it's real, is this a good API? Should you make any changes before you get this out to your team?
 
 ### Sample Code
 
@@ -62,18 +62,19 @@ servers:
     url: "https://api.staging.example.com"
 paths:
   /hello:
-    get: 
+    get:
       # ...
 ```
 
 You could swap out that URL for your Hosted Prism URL:
 
 <!-- markdown-link-check-disable -->
+
 https://workspacename.stoplight.io/mocks/workspacename/todos
+
 <!-- markdown-link-check-enable -->
 
-
-The actual contents of the responses depends on the examples in the API Description, and if the request prefers static or dynamic mode, and if you requested specific status codes to come back. 
+The actual contents of the responses depends on the examples in the API Description, and if the request prefers static or dynamic mode, and if you requested specific status codes to come back.
 
 ## More on Mocking
 

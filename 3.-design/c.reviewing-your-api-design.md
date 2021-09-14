@@ -10,13 +10,13 @@ When multiple developers are working on the API, and when multiple teams are all
 
 ## When to Review?
 
-When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API. 
+When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API.
 
 Whatever designs, [mock-powered prototypes](d.setting-up-a-mock-server.md), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
 
 After an API has launched, any new functionality and changes can also be reviewed. These will feel very similar to code reviews.
 
-Changes can be made at the same time as the code, then code and API description is reviewed in the same pull request at the same time, but that can lead to a lot of spam as API reviews trigger another round of code review, and vice versa. 
+Changes can be made at the same time as the code, then code and API description is reviewed in the same pull request at the same time, but that can lead to a lot of spam as API reviews trigger another round of code review, and vice versa.
 
 Instead, it can help to make the API description changes _before_ the code is written, then if the API description gets a thumbs up the code can be written to that existing contract.
 
@@ -45,9 +45,9 @@ Is the term "account" being introduced to describe users, when other parts of th
 
 **Is this consistent?**
 
-API consumers generally don't enjoy guessing subtle differences between various APIs from the same organization, and they shouldn't need to. 
+API consumers generally don't enjoy guessing subtle differences between various APIs from the same organization, and they shouldn't need to.
 
-- If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
+- If one API uses JSON:API and another uses Siren, maybe that's something to call out.
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
 Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../5.-governance/d.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
@@ -74,7 +74,7 @@ Read more about [creating and switching branches](https://meta.stoplight.io/docs
 
 ### 3. Make Changes, Commit, & Push
 
-When you're done making changes, [commit them, then push](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
+When you're done making changes, [commit them, then push](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#committing-changes) the branch to the remote repository.
 
 ### 4. Open a Pull Request
 

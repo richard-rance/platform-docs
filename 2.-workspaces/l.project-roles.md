@@ -1,12 +1,12 @@
 # Manage Project Access
 
-While workspace roles define workspace-wide access, not all projects need to be accessible or editable by everybody in the workspace. 
+While workspace roles define workspace-wide access, not all projects need to be accessible or editable by everybody in the workspace.
 
-Visibility and permission settings within projects allow granular control over who can do what. 
+Visibility and permission settings within projects allow granular control over who can do what.
 
 ## Project Visibility
 
-Project visibility determines who can view projects within or outside the workspace. 
+Project visibility determines who can view projects within or outside the workspace.
 
 **Private**: Only Workspace Members and Guests with direct project access can view the project.
 
@@ -21,6 +21,7 @@ To update the project visibility or add users to a project, click on the **Share
 ![](../assets/images/manage-project-access.png)
 
 > Keep in mind that users will see different projects depending on the following criteria:
+>
 > - Their permissions in the **workspace**, or
 > - Their role in the **project**, or
 > - The **visibility settings** of the project (private, public, or internal)
@@ -40,19 +41,19 @@ Project roles determines the level of access for each project member. These role
 View the full list of permissions for each role below:
 
 | Permission                | Owner | Admin | Editor | Viewer |
-|---------------------------|-------|-------|--------|--------|
-| View published branches   | ✅     | ✅     | ✅      | ✅      |
-| View unpublished branches | ✅     | ✅     | ✅      | ✅      |
-| Access mock servers       | ✅     | ✅     | ✅      | ✅      |
-| Add members               | ✅     | ✅     | ✅      | ✅      |
-| Edit in Studio            | ✅     | ✅     | ✅      |        |
-| Track branches            | ✅     | ✅     | ✅      |        |
-| View settings             | ✅     | ✅     | ✅      |        |
-| Edit settings             | ✅     | ✅     |        |        |
-| Remove members            | ✅     | ✅     |        |        |
-| Remove project            | ✅     |       |        |        |
-| Transfer ownership        | ✅     |       |        |        |
-| Leave the project         |       | ✅     | ✅      | ✅      |
+| ------------------------- | ----- | ----- | ------ | ------ |
+| View published branches   | ✅    | ✅    | ✅     | ✅     |
+| View unpublished branches | ✅    | ✅    | ✅     | ✅     |
+| Access mock servers       | ✅    | ✅    | ✅     | ✅     |
+| Add members               | ✅    | ✅    | ✅     | ✅     |
+| Edit in Studio            | ✅    | ✅    | ✅     |        |
+| Track branches            | ✅    | ✅    | ✅     |        |
+| View settings             | ✅    | ✅    | ✅     |        |
+| Edit settings             | ✅    | ✅    |        |        |
+| Remove members            | ✅    | ✅    |        |        |
+| Remove project            | ✅    |       |        |        |
+| Transfer ownership        | ✅    |       |        |        |
+| Leave the project         |       | ✅    | ✅     | ✅     |
 
 > **Note:** In order to edit Git projects, users will still need permissions in both Stoplight and the Git repository.
 
@@ -72,7 +73,7 @@ If you need access to a project, the project's owner can add you as a member or 
 
 ## Project Ownership
 
-Every project must have only one Owner. Before the Owner can leave a project, they are required to transfer ownership to another project member. 
+Every project must have only one Owner. Before the Owner can leave a project, they are required to transfer ownership to another project member.
 
 ### Transfer Project Ownership
 
@@ -85,8 +86,3 @@ To transfer ownership, open the **Share** dialog and change the member's role to
 When removing a Member from the Workspace or downgrading a Member to a Guest, you will automatically take ownership of all projects they currently own. You can then transfer ownership of those projects to another member if you wish.
 
 ![](../assets/images/remove-workspace-member-transfer.png)
-
-
-
-
-

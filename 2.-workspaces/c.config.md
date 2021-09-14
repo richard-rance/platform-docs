@@ -4,7 +4,7 @@ tags: [Workspaces]
 
 # Configure Projects
 
-Seeing as your projects can contain all sorts of files, sometimes you might not want Stoplight to analyze specific files. For example, if a project is backed by a Git repo which also contains a bunch of developer-only internal Markdown files, you might not want those going on your public documentation, 
+Seeing as your projects can contain all sorts of files, sometimes you might not want Stoplight to analyze specific files. For example, if a project is backed by a Git repo which also contains a bunch of developer-only internal Markdown files, you might not want those going on your public documentation,
 
 There is a `.stoplight.json` config file, which can help with that, using an `"exclude"` to blacklist certain files/folders.
 
@@ -43,7 +43,7 @@ Projects with no config file will act as though they had this config:
 
 Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs".
 
-The funny-looking stars in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch). 
+The funny-looking stars in the `"include"` are a [glob](<https://en.wikipedia.org/wiki/Glob_(programming)>) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch).
 
 ## Reference
 
@@ -88,10 +88,10 @@ To exclude the test files and make it clear which other files are which, the fol
     },
     "markdown": {
       "rootDir": "help"
-    },
+    }
   },
   "exclude": ["test"]
 }
 ```
 
-Next, lets [invite team members](./d.inviting-your-team.md) to these excellently configured projects. 
+Next, lets [invite team members](./d.inviting-your-team.md) to these excellently configured projects.

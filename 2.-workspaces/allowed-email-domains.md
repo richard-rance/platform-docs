@@ -16,11 +16,11 @@ After clicking the "Add" button, you will see a dialog where you can input an em
 
 ![Allowed Email Domain Configuration](../assets/images/allowed-email-domain-configure.png)
 
-Now that you've configured your company's email domain, you can send your Workspace URL to teammates and they will be automatically added to your Workspace. 
+Now that you've configured your company's email domain, you can send your Workspace URL to teammates and they will be automatically added to your Workspace.
 
 ## How it works
 
-When someone tries to join your Workspace, Stoplight will first have them confirm their email address. 
+When someone tries to join your Workspace, Stoplight will first have them confirm their email address.
 
 If their email address matches one of your Workspace's allow email domains, Stoplight will add them as a member to your Workspace with the role configured with the allowed domain.
 

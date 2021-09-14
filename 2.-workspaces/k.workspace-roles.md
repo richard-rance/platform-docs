@@ -8,7 +8,7 @@ Having all your collaborators on a single platform helps promote **visibility** 
 
 > To find out how to invite members to your workspace and assign roles, read our guide [**Inviting Team Members**](d.inviting-your-team.md)
 
-Workspace roles on Stoplight are predefined according to varying access needs. You can assign these roles whenever you invite a new member to your workspace. These roles include: 
+Workspace roles on Stoplight are predefined according to varying access needs. You can assign these roles whenever you invite a new member to your workspace. These roles include:
 
 ![Workspace Roles](../assets/images/workspace-roles.png)
 
@@ -20,10 +20,9 @@ Workspace roles on Stoplight are predefined according to varying access needs. Y
 
 **Owners, Admins and Billing**: in addition to maker access can manage team members, billing and make changes to the workspace like landing page content and themes.
 
-
 ## What's Next?
 
-Since you now have a fair idea of how workspace roles work in Stoplight, start by: 
+Since you now have a fair idea of how workspace roles work in Stoplight, start by:
 
 1. [**Inviting Team Members**](d.inviting-your-team.md)
 2. [**Manage Project Access**](l.project-roles.md)

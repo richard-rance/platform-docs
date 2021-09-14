@@ -36,7 +36,6 @@ Once your domain has been configured, you can optionally [enable analytics using
 > [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
 > more information on how we plan on addressing this limitation in the future.
 
-
 ## Troubleshooting
 
 ### Cloudflare-hosted domains

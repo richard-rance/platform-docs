@@ -1,9 +1,9 @@
-# Introduction to Stoplight 
+# Introduction to Stoplight
 
 APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past, APIs might have been an afterthought, created to satisfy integration requirements at a later point. Now they drive core new business models, providing critical integrations, and improving efficiency throughout multiple products.
 
 With the rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure you're APIs are the best they can be.
-		
+
 ### What is Stoplight?
 
 Stoplight offers tooling across the API lifecycle that helps you build quality APIs efficiently. With Stoplight, your team can:
@@ -58,14 +58,14 @@ type: tab
 title: Integrate
 -->
 
-# <i class="fas fa-sitemap"> </i> Integrate 
+# <i class="fas fa-sitemap"> </i> Integrate
 
 Stoplight is powered by industry-leading standards that help your team on board quickly and use our tooling without being locked in at any part of the lifecycle. Our tooling is based on:
-		
-  * OpenAPI Specification
-  * JSON Schema
-  * Markdown
-  * Git
+
+- OpenAPI Specification
+- JSON Schema
+- Markdown
+- Git
 
 <!-- type: tab-end -->
 

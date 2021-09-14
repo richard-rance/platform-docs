@@ -9,6 +9,7 @@ To update the project visibility or add users to a project, navigate to the **Ma
 ![](../assets/images/manage-project-access.png)
 
 > Keep in mind that users will see different projects depending on the following criteria:
+>
 > - Their permissions in the **workspace**, or
 > - Their permissions in the **project**, or
 > - The **visibility settings** of the project (private, public, or internal)
@@ -19,7 +20,7 @@ Set the project visibility as **Public** to allow anyone on the Internet, includ
 
 ### Internal Documentation
 
-Set the project visibility as **Internal** to allow *authenticated workspace members* to access the project. Projects with **Internal** visibility will not be accessible to unauthenticated users.
+Set the project visibility as **Internal** to allow _authenticated workspace members_ to access the project. Projects with **Internal** visibility will not be accessible to unauthenticated users.
 
 ### Private Documentation
 
@@ -41,4 +42,4 @@ In the workspace settings, add a URL to your logo. It's recommended to use a log
 
 ## Sharing with Users
 
-With your landing page ready and projects set to the correct visibility, **share your workspace URL with users** to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly. 
+With your landing page ready and projects set to the correct visibility, **share your workspace URL with users** to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly.

@@ -4,7 +4,7 @@ tags: [Documentation]
 
 # Quality API Reference Documentation
 
-Lots of APIs have reference documentation, but it can be tough to make it high quality. 
+Lots of APIs have reference documentation, but it can be tough to make it high quality.
 
 ## Authentication
 
@@ -25,35 +25,32 @@ It's important to have short, human-friendly, and self-explanatory names across 
 - Stick to a single dictionary, so either British English, American English, or whichever language best serves your intended audience.
 - Avoid Jargon. e.g., Card-number instead of PAN
 - Avoid abbreviations e.g., phone-number instead of tel-no
-- Stay consistent. 
-
+- Stay consistent.
 
 ### Descriptions
 
-Descriptions are a critical piece to create proper documentation. Use these fields across the API description to explain important things to the user. The API designer should have added small descriptions as pointers, but the more detail you go into, the better it is. You can use [Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to create informative and aesthetically pleasing descriptions. 
-
+Descriptions are a critical piece to create proper documentation. Use these fields across the API description to explain important things to the user. The API designer should have added small descriptions as pointers, but the more detail you go into, the better it is. You can use [Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to create informative and aesthetically pleasing descriptions.
 
 ### Other Properties
 
-The "Validations" and "Other Properties" sections in Studio provide important guardrails to the user, resulting in fewer mistakes and a more useful experience when viewing documentation as they won't be forced to guess the possible values of a particular parameter. 
+The "Validations" and "Other Properties" sections in Studio provide important guardrails to the user, resulting in fewer mistakes and a more useful experience when viewing documentation as they won't be forced to guess the possible values of a particular parameter.
 
 - Choose the correct format. e.g., DateTime/Password
-- Provide a default value, which also helps with quick starts in code samples. 
+- Provide a default value, which also helps with quick starts in code samples.
 - If there are a set of defined possible values, consider defining an enum. E.g: "status" can only be "pending" or "approved".
-
 
 ### Examples
 
 Examples help the developers learn and try out different use cases. These examples generate better mocks and code-samples too.
 
 - Try using real-life data.
-- Test their correctness. Studio should validate these for you automatically 
+- Test their correctness. Studio should validate these for you automatically
 - Give them explanatory names
 - Cover all your essential use cases
 
 ### Tags
 
-Tags are used to group your models and endpoints (also known as operations). Various tools will leverage tags in various ways, or not at all, but Stoplight uses them to group operations in the documentation sidebar. 
+Tags are used to group your models and endpoints (also known as operations). Various tools will leverage tags in various ways, or not at all, but Stoplight uses them to group operations in the documentation sidebar.
 
 ### SDKs
 
@@ -67,4 +64,4 @@ Stoplight keeps everything, including the OpenAPI in-sync with your Git repo. Yo
 
 ## Publishing Documentation
 
-With your documentation ready, let users experience it by [sharing it](../1.-quickstarts/share-documentation-quickstart.md). 
+With your documentation ready, let users experience it by [sharing it](../1.-quickstarts/share-documentation-quickstart.md).

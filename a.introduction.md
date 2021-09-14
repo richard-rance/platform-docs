@@ -31,7 +31,7 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 6. [Configure Analytics](4.-documentation/e.configure-analytics.md)
 7. [Configure Localize](4.-documentation/e1.configure-localize.md)
 8. [Redirects](4.-documentation/e2.configure-redirects.md)
-7. [Add images](4.-documentation/f.adding-images.md)
+9. [Add images](4.-documentation/f.adding-images.md)
 
 ### Governance with Stoplight
 

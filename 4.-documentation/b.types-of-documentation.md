@@ -39,11 +39,10 @@ Check out our quick-start guide on [creating Documentation with Studio](https://
 
 ## How-To Tutorials
 
-Tutorials are similar to getting started guides but are looking to make it easy to perform a particular use case. You can create a tutorial folder, and add more articles to it covering extra topics as questions come in. 
+Tutorials are similar to getting started guides but are looking to make it easy to perform a particular use case. You can create a tutorial folder, and add more articles to it covering extra topics as questions come in.
 
 For example, things like pagination are somewhat covered in API Reference Documentation. Maybe a query string parameter exists like `?page=1` or `?cursor=s24dfkjfhkdf`, and whilst some developers might understand that perfectly, many won't. A tutorial for how pagination works for your API is a great place to explain why you chose your specific pagination approach [of the many that exist](https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/), and explain how your users should interact with it. E.g.: [Slack](https://api.slack.com/docs/pagination) and [Stripe](https://stripe.com/docs/api/pagination).
 
 Other common tutorials are "Common Errors" which explain how your [error objects](https://apisyouwonthate.com/blog/creating-good-api-errors-in-rest-graphql-and-grpc/) work, what common status codes mean so you don't need to document 500, 501, 502 on every single operation, and any other useful information that can help users troubleshoot trouble.
 
 Within Stoplight there is no difference between a getting started guide, a tutorial, or any other sort of Markdown article, so check out our quick-start guide on [creating Documentation with Studio](https://meta.stoplight.io/docs/studio/docs/Documentation/01-getting-started.md).
-

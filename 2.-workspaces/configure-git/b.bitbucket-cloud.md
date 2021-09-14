@@ -9,18 +9,20 @@ Configure your Bitbucket Cloud integration by following the instructions below:
 3. Click OAuth consumers under Apps and features on the left navigation, then click **Add consumer**.
 4. Give the consumer a name e.g **Stoplight Integration**
 5. Set the callback URL as https://stoplight.io/oauth/callback
-6. Give the desired permissions to the consumer. The minimum you'd require is: **Account - Read, Repository - Admin, Repository - Write, Webhooks - Read and Write**. Click ***Save***
+6. Give the desired permissions to the consumer. The minimum you'd require is: **Account - Read, Repository - Admin, Repository - Write, Webhooks - Read and Write**. Click **_Save_**
 
 ### Stoplight Workspace
 
-7. Navigate to the Integrations section in your Stoplight workspace settings. 
-8. Click **Install/Configure** beside Bitbucket Cloud. Select **Customize integration settings**. 
+7. Navigate to the Integrations section in your Stoplight workspace settings.
+8. Click **Install/Configure** beside Bitbucket Cloud. Select **Customize integration settings**.
 9. Add the following information:
- - **Host URL**: This is the URL where your instance of Bitbucket Cloud is hosted.
- - **API URL**: This is the URL of the API of your instance of Bitbucket Cloud. This is usually: ***api.{HostURL}/2.0***
- - **Client ID**: You can find this as ***Key*** under the OAuth consumers settings for the newly created consumer. 
- - **Client Secret**: You can find this as ***Secret*** under the OAuth consumers' settings for the newly created consumer. 
-10. Click **Install**. 
+
+- **Host URL**: This is the URL where your instance of Bitbucket Cloud is hosted.
+- **API URL**: This is the URL of the API of your instance of Bitbucket Cloud. This is usually: **_api.{HostURL}/2.0_**
+- **Client ID**: You can find this as **_Key_** under the OAuth consumers settings for the newly created consumer.
+- **Client Secret**: You can find this as **_Secret_** under the OAuth consumers' settings for the newly created consumer.
+
+10. Click **Install**.
 
 If successful, [add projects](../b.adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
 
@@ -32,6 +34,7 @@ If you receive an error verify the following and try again:
 Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.com/bitbucket-cloud/docs/integrate-another-application-through-oauth/).
 
 <!-- theme: info -->
+
 > #### **If connected behind a firewall verify the following:**
 >
-> Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443. 
+> Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443.

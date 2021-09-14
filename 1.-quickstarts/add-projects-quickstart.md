@@ -2,7 +2,7 @@
 
 Projects can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some Excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
 
-Stoplight looks for: 
+Stoplight looks for:
 
 - API Description Documents (OpenAPI v2, OpenAPI v3, and JSON Schema)
 - Markdown articles
@@ -22,7 +22,7 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 
 Once the repository data has been analyzed, your workspace landing page should now contain projects populated with data.
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+Next, lets [share this project](share-documentation-quickstart.md).
 
 ## Creating a Blank Project
 
@@ -44,6 +44,6 @@ Once you're done making changes, you can click the "Push to Workspace" button to
 
 ### Share
 
-Finally, click the **Share** button in the top right to [share this project](share-documentation-quickstart.md) with your teammates. 
+Finally, click the **Share** button in the top right to [share this project](share-documentation-quickstart.md) with your teammates.
 
 ![share](../assets/images/studio-share-button.png)

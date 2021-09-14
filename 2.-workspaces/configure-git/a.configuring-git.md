@@ -1,6 +1,6 @@
 # Overview
 
-Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../b.adding-projects.md) in public or private repos. 
+Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../b.adding-projects.md) in public or private repos.
 
 ## Git Provider Support
 
@@ -30,16 +30,18 @@ Cloud-hosted Git providers are configured out of the box in Stoplight. The follo
 
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> GitLab
 
-1. Install your desired Git provider from the integrations section in your workspace settings. 
+1. Install your desired Git provider from the integrations section in your workspace settings.
 
 ![Install integrations from Workspace Settings > Integrations](../../assets/images/git_integrations.png)
 
-2. Select **Use Default Configuration** and click **Install**. 
+2. Select **Use Default Configuration** and click **Install**.
 
 If you have a self-hosted deployment or are looking for custom integration settings, use the guides below.
 
 ## Configure Self Hosted Git Providers
+
 <!-- theme: warning -->
+
 > This feature is available on the **Pro** plan and above
 
 Configure your Git Provider using the guides below:
@@ -50,4 +52,4 @@ Configure your Git Provider using the guides below:
 - [GitLab](e.gitlab.md)
 - [Gitea](f.gitea.md)
 
-> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443 over HTTPS. 
+> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443 over HTTPS.

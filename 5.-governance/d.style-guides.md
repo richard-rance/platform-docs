@@ -38,7 +38,7 @@ Some companies will write these down as Google Documents, an internal Wiki, and 
 
 Sometimes these style guides are published publicly, which can give useful insight into what big companies and government organizations consider to be a "good API" for them. [API Stylebook.com > Design Guidelines](http://apistylebook.com/design/guidelines/) is a collection of these style guides if you want to take a look and get some ideas.
 
-The trouble with these text-based documents is that they are large, terse documents which developers rarely read. If developers _do_ read them cover to cover, the chanced of them remembering everything is pretty slip. Even if they somehow remember 100% of the words written down, that knowledge gets out-of-date when changes and additions to the style guide are made. 
+The trouble with these text-based documents is that they are large, terse documents which developers rarely read. If developers _do_ read them cover to cover, the chanced of them remembering everything is pretty slip. Even if they somehow remember 100% of the words written down, that knowledge gets out-of-date when changes and additions to the style guide are made.
 
 Unless you expect all API developers to regularly re-read the API Style Guide cover to cover, you might want to look into automating your style guide. How? Robots! 🤖
 
@@ -49,22 +49,23 @@ Unless you expect all API developers to regularly re-read the API Style Guide co
 We talk about Spectral here, because we quite like it, and because it's been designed to let you create style guides for anything in the form of "Rulesets". It comes with a few default rulesets for popular API Description formats like OpenAPI, AsyncAPI, and JSON Schema out of the box, and you can make your own.
 
 <!-- theme: info -->
+
 > Seeing as Spectral works with JSON/YAML-based data, you could write custom rulesets for RAML, Kubernetes config, or any other structured data, but we're gonna focus on APIs here.
 
-The style guides made with Spectral can focus on the API descriptions (helping developers new to OpenAPI write better quality, more readable, more consistent OpenAPI), or it can focus on the API the API description is describing, to help the API developers make better APIs. 
+The style guides made with Spectral can focus on the API descriptions (helping developers new to OpenAPI write better quality, more readable, more consistent OpenAPI), or it can focus on the API the API description is describing, to help the API developers make better APIs.
 
-Or a style guide can do both! 
+Or a style guide can do both!
 
 ### Spectral Rulesets
 
-Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others. 
+Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others.
 
 So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.io/docs/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
 
 For example, adding contact information to the API description is often overlooked, but massively useful for people who have questions about the API later.
 
 ```yaml
-openapi: '3.0.3'
+openapi: "3.0.3"
 info:
   version: 1.0.0
   title: PokeAPI
@@ -85,17 +86,17 @@ paths:
   /pet:
     patch:
       operationId: "update-pet"
-      responses: 
+      responses:
         200:
           description: ok
     put:
       operationId: "update-pet"
-      responses: 
+      responses:
         200:
           description: ok
 ```
 
-Spectral will give anyone repeating an operationId a warning: 
+Spectral will give anyone repeating an operationId a warning:
 
 <!-- theme:warning -->
 
@@ -109,7 +110,7 @@ Let's look at creating a style guide using "Custom Rulesets".
 
 You can do pretty much anything with a ruleset, by using our built-in functions, or get more powerful with [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md)!
 
-Stoplight Platform, Studio, Spectral, etc. will all look for a `.spectral.yaml` file (or `.spectral.json` if you prefer) which contains a rules object. 
+Stoplight Platform, Studio, Spectral, etc. will all look for a `.spectral.yaml` file (or `.spectral.json` if you prefer) which contains a rules object.
 
 If I want to enforce all operations (API endpoints) are kebab-case `/berry-flavor/` instead of camelCase `/berryFlavour` or some other case, we could do that.
 
@@ -118,7 +119,7 @@ If I want to enforce all operations (API endpoints) are kebab-case `/berry-flavo
 rules:
   paths-kebab-case:
     description: Should paths be kebab-case.
-    message: '{{property}} is not kebab-case: {{error}}'
+    message: "{{property}} is not kebab-case: {{error}}"
     given: $.paths[*]~
     then:
       function: casing
@@ -139,10 +140,10 @@ rules:
     then:
       function: pattern
       functionOptions:
-        notMatch: '^(x|X)-'
+        notMatch: "^(x|X)-"
 ```
 
-Done early enough, this will shape the actual API as it is being developed. The ruleset will come into effect in Studio, so that as people are typing they get feedback if they break a style guide rule. 
+Done early enough, this will shape the actual API as it is being developed. The ruleset will come into effect in Studio, so that as people are typing they get feedback if they break a style guide rule.
 
 ![](../assets/images/spectral-studio.gif)
 
@@ -189,39 +190,39 @@ New rulesets can be added as your style guide evolves, as new problems occur and
 For example, the API Governance team decides that all APIs need to be running on HTTPS, and only HTTPS. No HTTP allowed anywhere in the company. They could add this rule:
 
 ```yaml
-  oas2-hosts-https-only:
-    description: "ALL requests MUST go through `https` protocol only"
-    severity: info
-    formats: [oas2]
-    message: "Schemes MUST be https and no other value is allowed."
-    given: $.schemes
-    then:
-      function: schema
-      functionOptions:
-        schema:
-          type: array
-          items:
-            type: string
-            enum: ["https"]
-          maxItems: 1
+oas2-hosts-https-only:
+  description: "ALL requests MUST go through `https` protocol only"
+  severity: info
+  formats: [oas2]
+  message: "Schemes MUST be https and no other value is allowed."
+  given: $.schemes
+  then:
+    function: schema
+    functionOptions:
+      schema:
+        type: array
+        items:
+          type: string
+          enum: ["https"]
+        maxItems: 1
 ```
 
 As the severity is just `info` this will show up in Studio, be output by Spectral CLI, and show up in continuous integration results, all without causing any problems. It's just an informative message, that folks should notice and tweak as they go.
 
-A few weeks or months later when you know most people have implemented this change, you can bump up the severity in order to get the slackers to do the work. 
+A few weeks or months later when you know most people have implemented this change, you can bump up the severity in order to get the slackers to do the work.
 
 ```yaml
-  oas2-hosts-https-only:
-    description: "ALL requests MUST go through `https` protocol only"
-    severity: warn
-    # ...
+oas2-hosts-https-only:
+  description: "ALL requests MUST go through `https` protocol only"
+  severity: warn
+  # ...
 ```
 
-This change will start to show up in Studio as a warning, which will also fail Spectral CLI and trigger a failed build in any Continuous Integration running it too. 
+This change will start to show up in Studio as a warning, which will also fail Spectral CLI and trigger a failed build in any Continuous Integration running it too.
 
 Doing this at the right time for the right reason is a powerful tool to communicate change across large organizations, but using this too heavy handedly can be a problem.
 
-If there are any problems (like hotfixes cannot go out because of CI failures) then anyone can disable rules for specific resources using a feature we call [Exceptions](https://meta.stoplight.io/docs/spectral/docs/guides/6-exceptions.md): 
+If there are any problems (like hotfixes cannot go out because of CI failures) then anyone can disable rules for specific resources using a feature we call [Exceptions](https://meta.stoplight.io/docs/spectral/docs/guides/6-exceptions.md):
 
 ```yaml
 extends: spectral:oas
@@ -229,9 +230,8 @@ extends: spectral:oas
 except:
   "one.yaml#":
     - oas3-api-servers
-  "./one.yaml#/info":  # Beside relative ones, also supports rooted paths ;-)
+  "./one.yaml#/info": # Beside relative ones, also supports rooted paths ;-)
     - info-contact
 ```
-
 
 If you already have a style guide, see how much of it you can solve with the build-in functions, then start to get more creative with custom functions to solve the organizations biggest issues.

@@ -28,7 +28,7 @@ Stoplight CLI can be used to [enable local projects](./f.working-with-local-proj
 
 Why? Maybe you're using an annotation framework to describe your APIs inside your existing source code and you'd like to export those in order to publish documentation. You can do that by running whatever the CLI command is for exporting from that framework, then running the push command to send the contents to Stoplight.
 
-Or more simply, maybe you use Subversion or another version control system instead of Git. 
+Or more simply, maybe you use Subversion or another version control system instead of Git.
 
 Whatever the reason, the process is the same.
 
@@ -49,4 +49,4 @@ npx @stoplight/cli@4 push --ci-token {project-token} --url https://{workspace-na
 > Note that nodeJS version 12 or greater is required to run the CLI. You can
 > double check your version with the command: `node --version`
 
-To find this token, head to `https://{workspace}.stoplight.io/settings/{project}/automation` in your browser. 
+To find this token, head to `https://{workspace}.stoplight.io/settings/{project}/automation` in your browser.

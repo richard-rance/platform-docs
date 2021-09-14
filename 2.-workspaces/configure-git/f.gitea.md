@@ -11,14 +11,16 @@ Configure your Gitea integration by following the instructions below:
 
 **Stoplight Workspace**
 
-3. Navigate to the Integrations section in your Stoplight workspace settings. 
-4. Click **Install/Configure** beside Gitea. 
+3. Navigate to the Integrations section in your Stoplight workspace settings.
+4. Click **Install/Configure** beside Gitea.
 5. Add the following information:
- - **Host URL**: This is the URL where your instance of Gitea is hosted.
- - **API URL**: This is the URL of the API of your instance of Gitea. This is usually: `{HostURL}/api/v1`
- - **Client ID**: You can find this as `Client ID` under the application settings for the newly created app. 
- - **Client Secret**: You can find this as `Secret` under the application settings for the newly created app. 
-6. Click **Install**. 
+
+- **Host URL**: This is the URL where your instance of Gitea is hosted.
+- **API URL**: This is the URL of the API of your instance of Gitea. This is usually: `{HostURL}/api/v1`
+- **Client ID**: You can find this as `Client ID` under the application settings for the newly created app.
+- **Client Secret**: You can find this as `Secret` under the application settings for the newly created app.
+
+6. Click **Install**.
 
 If successful, [add projects](../b.adding-projects.md) to start working with projects from your Gitea instance.
 
@@ -29,4 +31,4 @@ If you receive an error verify the following and try again:
 
 If connected behind a firewall verify the following:
 
-Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443. 
+Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443.

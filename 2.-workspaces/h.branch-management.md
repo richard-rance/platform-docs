@@ -1,6 +1,6 @@
 # Branch Management
 
-Projects powered by Git can leverage the awesome power of [Git branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell). 
+Projects powered by Git can leverage the awesome power of [Git branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell).
 
 Sometimes branches are used for versioning, so a repository might have a `v4` and a `v5` branch.
 
@@ -12,7 +12,7 @@ Regardless of the model, there is always a default branch. Branches could be nam
 
 > This feature is available on the Stoplight **Starter** plan, and above.
 
-The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. 
+The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library.
 
 You can enable more branches for publishing than just the default branch.
 
@@ -33,7 +33,7 @@ If you don't like the branch names as they're displayed, you can give them a dis
 
 ## Renaming Branches
 
-Changing the name of the branch will only update what is viewed in the Versions dropdown, it does not change the underlying Git branch's name. Think of it as giving them an alias. 
+Changing the name of the branch will only update what is viewed in the Versions dropdown, it does not change the underlying Git branch's name. Think of it as giving them an alias.
 
 Doing this can make things more clear for end-users of your software, API, etc. who might not be familiar with your branching model or workflow.
 
@@ -97,7 +97,7 @@ The default branch and all branches associcated with a pull request will be auto
 
 If you want to track Git branches that are not associated with a pull request, such as a development or version branch, there's a freeform text box input to enter the branch name to track.
 
-Tracking a Git branch will analyze it, and add it to your list of branches in Stoplight. 
+Tracking a Git branch will analyze it, and add it to your list of branches in Stoplight.
 
 This won't create a new Git branch, it's just going to tell Stoplight to keep an eye out for webhooks mentioning a branch of that name.
 

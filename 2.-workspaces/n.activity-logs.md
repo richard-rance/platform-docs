@@ -7,9 +7,9 @@
 
 Activity logs provide a record of how members and guests are interacting with your workspace's resources.
 
-Stay up to date with all the changes happening within your Workspace. View and audit activity that has occurred across users, projects, and (soon!) groups in your workspace. 
+Stay up to date with all the changes happening within your Workspace. View and audit activity that has occurred across users, projects, and (soon!) groups in your workspace.
 
-When a project is updated, you can track who updated the project, from which branch, and where it was updated, whether from Studio, webhook, or pushed in via CLI. 
+When a project is updated, you can track who updated the project, from which branch, and where it was updated, whether from Studio, webhook, or pushed in via CLI.
 
 Filter by changes to membership and account types, project visibility, and creation or deletion of groups or projects leading to:
 
@@ -39,7 +39,7 @@ Stoplight tracks the following information for every event:
 | Workspace Events         |                                                          |
 | ------------------------ | -------------------------------------------------------- |
 | **Membership changed**   | A member is added, removed or role is changed            |
-| **Billing plan changed** | The billing plan is upgraded or downgraded                |
+| **Billing plan changed** | The billing plan is upgraded or downgraded               |
 | **Integration changed**  | An integration is added, removed or settings are updated |
 | **Workspace changed**    | The workspace slug is renamed                            |
 
@@ -51,28 +51,31 @@ Stoplight tracks the following information for every event:
 | **Changed visibility of a group** | A group's visibility is changed               |
 | **Membership changed**            | A member is added, removed or role is changed |
 
-| Project Events                          |                                                                    |
-| --------------------------------------- | ------------------------------------------------------------------ |
-| **Created a project**                   | A project is created                                               |
-| **Deleted a project**                   | A project is deleted                                               |
-| **Renamed a project**                   | A project is renamed                                               |
-| **Moved a project**                     | A project is moved to a different group or is removed from a group |
-| **Updated contents of a project**                     | The project's contents were updated via Studio Web, CLI, or Webhook (worker) |
-| **Changed visibility of a project**     | The project's visibility is changed                                |
-| **Changed default branch of a project** | The project's default branch is changed                            |
-| **Membership changed**                  | A member is added, removed or role is changed                      |
-
+| Project Events                          |                                                                              |
+| --------------------------------------- | ---------------------------------------------------------------------------- |
+| **Created a project**                   | A project is created                                                         |
+| **Deleted a project**                   | A project is deleted                                                         |
+| **Renamed a project**                   | A project is renamed                                                         |
+| **Moved a project**                     | A project is moved to a different group or is removed from a group           |
+| **Updated contents of a project**       | The project's contents were updated via Studio Web, CLI, or Webhook (worker) |
+| **Changed visibility of a project**     | The project's visibility is changed                                          |
+| **Changed default branch of a project** | The project's default branch is changed                                      |
+| **Membership changed**                  | A member is added, removed or role is changed                                |
 
 ## Activity logs FAQ
+
 **How much data is retained?**
+
 - No data is deleted; all data is currently retained
 
 **How far back does the log go?**
+
 - August 18, 2021
 
 **Can users change the length of time data is retained or amount/types of data that is collected?**
+
 - Not at this time
 
 **What users are tracked?**
-- Internal and External: We can identify who is making the change and surface username, email address, and IP address. If someone outside of your Workspace makes a change (eg Github), you will be able to see their email address. 
 
+- Internal and External: We can identify who is making the change and surface username, email address, and IP address. If someone outside of your Workspace makes a change (eg Github), you will be able to see their email address.
