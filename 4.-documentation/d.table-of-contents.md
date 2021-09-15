@@ -30,7 +30,7 @@ Dividers are bold, non-clickable items that signify the start of a section of co
 
 ### Groups
 
-Groups are non-linkable, collabsible items containing items and other groups that all relate to the same subject matter. Dividers cannot be nested within a group.
+Groups are non-linkable, collapsible items containing items and other groups that all relate to the same subject matter. Dividers cannot be nested within a group.
 
 ### Items
 
@@ -119,9 +119,9 @@ There are a few exceptions. If a "docs" folder exists, it is flattened and not r
 
 ### APIs
 
-Next in the list below articles are your APIs. Each API's title is represented as a [divider](#dividers) followed by an item titled "Overview". The overview item contains the API's description, contact, licensing, servers and global security. 
+Next in the list below articles are your APIs. Each API's title is represented as a [divider](#dividers) followed by an item titled "Overview". The overview item contains the API's description, contact, licensing, server URLs, and security schemes. 
 
-All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into a group titled "other". If none of your endpoints or models contain tags, they are placed into groups titled "Endpoints" and "Models" respectively.
+All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into the top level of the table of contents, below tags. If none of your endpoints or models contain tags, they are placed into groups titled "Endpoints" and "Models" respectively.
 
 ### Models
 
