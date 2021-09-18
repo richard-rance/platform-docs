@@ -39,6 +39,12 @@
       "uri": "2.-workspaces/a.creating-a-workspace.md"
     },
 
+        {
+      "type": "item",
+      "title": "Signing into a Workspace",
+      "uri": "2.-workspaces/f.Signing-In-Workspace.md"
+    },
+
     {
       "type": "group",
       "title": "Workspace Personalization",
@@ -84,8 +90,9 @@
     {
       "type": "item",
       "title": "Configure Analytics",
-      "uri": "2.-workspaces/e.configuring-authentication.md"
+      "uri": "2.-workspaces/g.configure-analytics.md"
     },
+
 {
       "type": "divider",
       "title": "Projects"
