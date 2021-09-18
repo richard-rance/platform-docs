@@ -55,6 +55,8 @@
           "uri": "2.-workspaces/workspace-personalization/a.workspace-basics.md"
         },
 
+      
+
           {
           "type": "item",
           "title": "Configure Homescreen",
@@ -76,8 +78,15 @@
           "type": "item",
           "title": "Custom Domain",
           "uri": "2.-workspaces/workspace-personalization/d.custom-domain.md"
+        },
+
+         {
+          "type": "item",
+          "title": "Hide Sign in Button",
+          "uri": "2.-workspaces/workspace-personalization/f.-hide-sign-in-button.md"
         }
-        
+
+   
       ]
     },
     
