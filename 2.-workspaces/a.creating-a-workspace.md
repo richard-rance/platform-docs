@@ -4,7 +4,7 @@ A Stoplight **workspace** is a collaborative hub to organize and collaborate on 
 
 To create a workspace, you'll need to sign up for a Stoplight account using an email address from your company’s domain.
 
-**Tip:** Stoplight recommends making a single workspace for your organization, and then using [roles and permissions](https://www.notion.so/Workspace-Roles-a0ed0e545fb840e7a0c7ec3ff2b3241f) to manage your workflows.
+> **Tip:** Stoplight recommends making a single workspace for your organization, and then using [roles and permissions](https://www.notion.so/Workspace-Roles-a0ed0e545fb840e7a0c7ec3ff2b3241f) to manage your workflows.
 
 ## Things to keep in mind:
 
