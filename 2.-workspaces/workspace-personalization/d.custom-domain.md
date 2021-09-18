@@ -1,4 +1,3 @@
-
 # Custom Domains
 
 If you want to have your workspace behind a domain of your choice, you can set up a custom domain with Stoplight.
