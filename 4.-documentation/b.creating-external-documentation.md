@@ -28,9 +28,7 @@ Before sharing documentation with external users, you need to make sure you have
 
 Often people miss out on customizing the landing page for their workspaces. Your landing page on stoplight is your homescreen, it the first thing users coming to your documentation will see. Use your landing page to highlight getting started guides, tutorials, how-tos, and anything that would help users navigate your documentation better. 
 
-> **Note:** There's an example template available to get started quickly. You can edit or completely replace the default template using Stoplight Flavored Markdown from the workspace settings.
-
- Before advancing any further, we recommend you visit our guide for configuring the home screen. 
+> **Note:** Before advancing any further, we recommend you visit our guide for [configuring the home screen](../2.-workspaces/workspace-personalization/c.configure-homescreen.md). 
 
 ### 2.  Personalizing Workspace:
 
