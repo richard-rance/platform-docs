@@ -45,4 +45,4 @@ To find your workspace(s):
 Next you can look into: 
 
 - **[Workspace Personalization](workspace-personalization/a.workspace-basics.md)**
-- **[Hide Sign in Button](workspace-personalization/f.-hide sign in button.md)**
+- **[Hide Sign in Button]()**
