@@ -29,7 +29,7 @@ To create a shared component:
 1. Scroll to the end of your API file on the Studio, and right-click the component name.
 2. Specify component details, and click save, as an example, we are adding a query parameter in the video below.
 
-![Shared comnponent](../assets/SP2.mov)
+![Shared component](../assets/SP2.mov)
 
 
 Once done push changes to Git. 

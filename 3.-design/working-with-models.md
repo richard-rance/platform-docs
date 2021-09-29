@@ -9,7 +9,8 @@ Models are the schemas that go in your API's request or response bodies. Models 
 1. **Primitive type**: String, integer, array, boolean
 2. **Complex type** (object): That you can define yourself.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31a94314-0927-45b4-a90e-c07eb98415a8/Screen_Shot_2021-03-16_at_5.46.47_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31a94314-0927-45b4-a90e-c07eb98415a8/Screen_Shot_2021-03-16_at_5.46.47_PM.png)
+![Screen Shot 2021-09-29 at 4.20.41 PM.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/eYXnlLcQTsw)
+
 
 > **Tip:** Learn more about modeling your schemas, you can visit the official OpenAPI documentation here: [https://swagger.io/docs/specification/data-models/](https://swagger.io/docs/specification/data-models/)
 
@@ -28,18 +29,21 @@ Stoplight Studio's UI schema editor makes modeling very simple and easy. You can
 2. Once the endpoint is open, scroll down and click on **JSON Request Body** or **Response.** This will open the **scheme editors** for them. 
     
     
-    [https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d378d87f-c424-410b-8b40-b9cb671a2ca1/Screen_Recording_2021-03-16_at_6.02.49_PM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d378d87f-c424-410b-8b40-b9cb671a2ca1/Screen_Recording_2021-03-16_at_6.02.49_PM.mov)
+![Working]()
+
+    
+    
     
 
 3.  Click the **+** (plus) icon next to the root **object** to start adding fields to the data structure. The plus icon can also be used on nested objects to create a hierarchy of nested data structures. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e61f85e-0a04-45e4-b130-7921d4ad01f7/Screen_Shot_2021-03-16_at_6.14.40_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e61f85e-0a04-45e4-b130-7921d4ad01f7/Screen_Shot_2021-03-16_at_6.14.40_PM.png)
+![models.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RyADuMB8O6o)
 
 For the new field, specify a: 
 
 1. **Name:** Names can be composed of any alphanumeric characters, but can only be specified once. 
 
-**Warning:** You will receive an error if you try to re-use field names multiple times on the same level (though they can be re-used on nested objects)
+> **Warning:** You will receive an error if you try to re-use field names multiple times on the same level (though they can be re-used on nested objects)
 
  2.  **Type:**  The default type for a newly-created field is '**string**', however other types include:
 
@@ -53,15 +57,17 @@ For the new field, specify a:
 
 Field types can also include *Combination Types*, which include 'allOf', 'oneOf', and 'anyOf'. These special types allow for object inheritance from other data structures and models.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41d530cf-1b2e-472e-9883-dd55cc565133/Screen_Shot_2021-03-16_at_8.41.50_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41d530cf-1b2e-472e-9883-dd55cc565133/Screen_Shot_2021-03-16_at_8.41.50_PM.png)
+
+![models2.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/oPl0nsxjGNU)
+
 
  3. **Description:** Include a small description to explain the field. The description goes in your public documentation and should give a fair idea of what the consumer should expect. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2db9db9-ed78-4182-b379-ae6d9a681974/Screen_Shot_2021-03-16_at_8.43.26_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2db9db9-ed78-4182-b379-ae6d9a681974/Screen_Shot_2021-03-16_at_8.43.26_PM.png)
+![models2.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gYDfHKyhCQM)
 
 4. **Mark Required:** Specify field as required, which ensures that the field is present in all requests (and an error is thrown otherwise).
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ef4f3c6-2851-42b4-be6d-d51b5c9759f2/Screen_Shot_2021-03-16_at_9.24.38_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ef4f3c6-2851-42b4-be6d-d51b5c9759f2/Screen_Shot_2021-03-16_at_9.24.38_PM.png)
+![models4.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/QCcHRBt5Rp8)
 
 5. **Default Value:** Specify a default value for a field, for instance, if the field is boolean, the default value can be **true** or **false**.
 
@@ -98,6 +104,6 @@ To start doing that:
 
 As the next step you can look into: 
 
-- **[Shared Components](url)**
+- **[Shared Components](shared-components.md)**
 - [**Request Maker**](url)
-- **Mock Server**
+- [**Mock Server**](url)

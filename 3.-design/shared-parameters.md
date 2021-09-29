@@ -72,6 +72,5 @@ By setting an `offset` of `20`, the API will discard the first 20 results. Pa
 
 ## What's Next?
 
-- **Shared Responses**
 - [**Shared Models**](Shared-Models.md)
-- **Shared Examples**
+- [**Shared Examples**](shared-example.md)
