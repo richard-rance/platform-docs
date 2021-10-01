@@ -12,7 +12,7 @@ Models are the schemas that go in your API's request or response bodies. Models 
 ![Screen Shot 2021-09-29 at 4.20.41 PM.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/eYXnlLcQTsw)
 
 
-> **Tip:** Learn more about modeling your schemas, you can visit the official OpenAPI documentation here: [https://swagger.io/docs/specification/data-models/](https://swagger.io/docs/specification/data-models/)
+> **Tip:** Learn more about modeling your schemas, you can visit the official OpenAPI documentation here: [Open API Docs](https://swagger.io/docs/specification/data-models/)
 
 Defining a model can be hard work, but on Stoplight Studio you can easily do that in two different ways: 
 
@@ -29,10 +29,7 @@ Stoplight Studio's UI schema editor makes modeling very simple and easy. You can
 2. Once the endpoint is open, scroll down and click on **JSON Request Body** or **Response.** This will open the **scheme editors** for them. 
     
     
-![Working]()
-
-    
-    
+![Video](../assets/models.mov)  
     
 
 3.  Click the **+** (plus) icon next to the root **object** to start adding fields to the data structure. The plus icon can also be used on nested objects to create a hierarchy of nested data structures. 
@@ -53,7 +50,7 @@ For the new field, specify a:
 - integers
 - booleans
 - nulls
-- [references](https://meta.stoplight.io/docs/studio/docs/Design-and-Modeling/07-using-references.md) (a.k.a. shared components)
+- [references](references.md) (a.k.a. shared components)
 
 Field types can also include *Combination Types*, which include 'allOf', 'oneOf', and 'anyOf'. These special types allow for object inheritance from other data structures and models.
 
@@ -71,7 +68,7 @@ Field types can also include *Combination Types*, which include 'allOf', 'oneOf
 
 5. **Default Value:** Specify a default value for a field, for instance, if the field is boolean, the default value can be **true** or **false**.
 
-6: **Example:**  Example values again help with documentation, and helps builds better code samples. Make sure example values are valid according to the field type. 
+6. **Example:**  Example values again help with documentation, and helps builds better code samples. Make sure example values are valid according to the field type. 
 
 7. **Enumerations:** *Enums* for short, allow you to restrict the contents of the field to be specific values. For example, if you are creating a 'color' field of type string, you may want to restrict the strings used in that field to specific colors (red, blue, green, etc).
 
@@ -83,7 +80,7 @@ Field types can also include *Combination Types*, which include 'allOf', 'oneOf
 
 11. **Mark Read/Write:** Fields marked read-only can only be retrieved and not changed. 
 
-**Note:** When creating a **[shared model](https://www.notion.so/Shared-Models-203f291067d34b38b7380a379e2139fe)**, you can also specify a model **Name** and **Description.**
+> **Note:** When creating a **[shared model](shared-models.md)**, you can also specify a model **Name** and **Description.**
 
 ## **Editing the Raw JSON Schema**
 
@@ -91,7 +88,7 @@ If UI editor is not something you are comfortable with, you can make use of the 
 
 To start doing that:
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4d4a975-7078-4ae8-9131-2b106dd45da0/Screen_Recording_2021-06-29_at_8.53.55_PM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4d4a975-7078-4ae8-9131-2b106dd45da0/Screen_Recording_2021-06-29_at_8.53.55_PM.mov)
+![Video](../assets/working with models.mov)
 
 1. Open your API file in Stoplight Studio and navigate to your endpoint or model. 
 2. Near the top left of the editor, click the **</Code>** button to toggle to raw JSON editor. 
