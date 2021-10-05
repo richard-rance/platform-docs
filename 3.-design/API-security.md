@@ -1,0 +1,90 @@
+# **API Security**
+
+The OpenAPI specification allows API designers to define authentication and authorization as part of their machine-readable API description through security scheme definitions and security requirements. Stoplight supports all OpenAPI security features.
+
+## Overview
+
+### What is a security scheme?
+
+A security scheme is a global definition with a name that designates an authentication method available for the API. It is possible to define multiple schemes if, for example, an API can support both **Basic Authentication** and **OAuth**. There can even be various schemes of the same type.
+
+### What are security requirements?
+
+Security requirements exist both globally for the entire API or on an operation level. It matches the API as a whole or the individual API operation to one or more of the previously defined security schemes. Developers can use this to specify different levels of authorization explicitly, for example, by making read requests available without authentication, but requiring OAuth for write requests.
+
+![sa1.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/hR31UYL6m5E)
+
+
+Learn how to work with API Security by visiting these guides. 
+
+1. **Creating Security Schemes:**
+2. **Specifying Global Security:** 
+3. **Specifying Security Requirements :**
+4. **Documenting API Security:**
+
+## Types of Security Schemes
+
+### 1. **API Key**
+
+For API keys, select the ***apiKe**y* scheme type. An API key is a single token sent to the API server that the user has retrieved through an out-of-band mechanism. API keys can be a query parameter, a custom HTTP header, or a cookie.
+
+![sa2.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/mpqFdHlA1kc)
+
+
+Use the right dropdown to toggle between *query*, *header*, and *cookie* and use the name textbox to enter the query, cookie, or header name, respectively.
+
+When designing a new API with API Keys, we recommend the following:
+
+- Use *cookie* when a web application uses your API in the browser, and you can use cookies for session management.
+- Use *query* when your API is mostly exposing public data or doesn't have strict security constraints and may be used in environments where developers can only specify a URL but no custom headers.
+- In all other cases, use *header* as the best practice that follows proper HTTP semantics.
+
+### 2. OAuth 2
+
+For OAuth 2, select the *oauth2* scheme type. OAuth is an open authentication standard defined by [RFC6749](https://tools.ietf.org/html/rfc6749) and [RFC6750](https://tools.ietf.org/html/rfc6750). OAuth also uses the standard HTTP *Authorization* header to send a credential known as bearer token but also defines various flows for retrieving this bearer token. You can enter the configuration for the flows into your OpenAPI specification, and various OpenAPI tools can use this information to assist the user in going through them.
+
+Hint: If you are documenting an API that still uses OAuth 1, select the *http* scheme type and then *oauth* as a subtype instead.
+
+![sa3.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/DfereJKSzwM)
+
+
+Once selecting *oauth2*, you will see a flows input field into which you can enter one or more of the following flow types: *implicit*, *password*, *clientCredentials*, and *authorizationCode*. An autocomplete dropdown appears as soon as you click in the flows field.
+
+If you are unsure which flows your API should support or which ones to add, here is a short guide:
+
+- Most APIs use OAuth because authorized API calls need a user context. For this purpose, you typically use the *authorizationCode* flow. It is the most common OAuth flow.
+- If an application consuming the API is a browser-based application without a backend, you may want to support the *implicit* flow. However there are OAuth extensions like PKCE that assist in implementing the more secure *authorizationCode* flow for these applications as well, so you may not need *implicit*.
+- If your application uses OAuth for API calls without a user context, you can add *clientCredentials*.
+- Do not use the *password* flow unless you know exactly what you are doing!
+
+You can learn more about these flows on the [OAuth website](https://oauth.net/).
+
+### 3. HTTP Basic Authentication
+
+For HTTP Basic authentication, select the basic type. HTTP authentication uses the standard HTTP *Authorization* header defined in [RFC7235](https://tools.ietf.org/html/rfc7235).
+
+![sa4.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/A1gD6peElaA)
+
+
+While OpenAPI supports the different variants of HTTP , the majority of APIs use *basic authentication*. With basic authentication, an API client sends the combination of a username and a password in the Authorization header. The method for retrieving the username and password is not part of the OpenAPI description.
+
+## **Documenting API Security**
+
+Your OpenAPI description provides the input for autogenerated API reference documentation, whether you use Stoplight for this purpose or another, third-party tool. That documentation automatically includes information about the security schemes that you support and which endpoints require authentication.
+
+However, to enable consumers to integrate your API successfully, you need to provide some additional information not included in your OpenAPI description:
+
+- For the *apiKey* scheme, inform consumers where they can generate or retrieve their API key. If API keys expire or need to rotate, make sure to communicate that.
+- For the *oauth2* scheme, inform consumers where they can get their client ID and secret. You should also let them know about the validity of authorization codes and access tokens. If your server issues refresh tokens, inform about this fact and what their validity is.
+- For the *http* scheme and most of its subtypes like *basic*, inform consumers where they can get their username and password. Make sure to stress whether these are the same credentials that they use to log in to the frontend or whether they are different credentials.
+
+You can include this information as part of a quick start guide or as a separate authentication document. If you write these documents in Markdown, you can use Stoplight Studio to create and edit them.
+
+> **Note:** Learn how to create a guide document on Stoplight: **Creating an Article**
+
+## What's Next?
+
+By now you have covered most of what goes in design. Next you can start looking into: 
+
+1. **Documentation Quick Start**
+2. **Creating an Article**
