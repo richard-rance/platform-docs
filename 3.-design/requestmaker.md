@@ -40,9 +40,39 @@ The request maker is very much like many other HTTP clients out there, but it kn
 
 Clicking the dropdown on top of snippet will open different languages, most of which support a few different libraries, you can select from any of these. 
 
->**Note:** These code snippets come from the open-source package httpsnippet, so if you'd like to contribute more, first send them a pull request then open an issue on our GitHub repository.
+>**Note:** These code snippets come from the open-source package [httpsnippet](https://meta.stoplight.io/docs/studio/ZG9jOjc1-generating-code-snippets#:~:text=open-source%20package-,httpsnippet,-%2C%20so%20if%20you%27d), so if you'd like to contribute more, first send them a pull request then open an issue on our [GitHub repository](https://meta.stoplight.io/docs/studio/ZG9jOjc1-generating-code-snippets#:~:text=our%20GitHub%20repository).
 
 ## Languages Supported
+
+
+Language | Library 
+---------|---------- 
+ Shell	| cURL
+Shell	| HTTPie
+Shell	| Wget
+Java	| Unirest
+Java	| OkHttp
+JavaScript	| XMLHttpRequest
+JavaScript	| jQuery
+NodeJS	| Native
+NodeJS. | 	Request
+NodeJS	| Unirest
+PHP	| ext-curl
+PHP	| pecl/http 1
+PHP	| pecl/http 2
+Python| 	Python 3
+Python| 	Requests
+Powershell| 	WebRequest
+Powershell| 	RestMethod
+R	| httpr
+Ruby	
+Go	
+C	
+C#	
+Obj-C	
+Swift	
+OCaml	
+HAR	
 
 
 ## Code Snippets in Documentation
@@ -60,5 +90,5 @@ If you'd like to go further with code generation, consider looking into on of th
 
 You now know how to work with code snippets on Stoplight. Next you can learn how to work with:
 
-1. Mock Servers
-2. Validation and Linting
+1. **[Mock Servers](url)**
+2. **[Validation and Linting](url)**
