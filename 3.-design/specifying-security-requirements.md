@@ -16,13 +16,13 @@ To add a requirement:
 ![ssr2.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/sFt6OyGSvS0)
 
 
-1. From the dropdown that opens, chose **Add operation security.**
-2. Next pick the type of your security scheme by clicking the scheme name. 
+3. From the dropdown that opens, chose **Add operation security.**
+4. Next pick the type of your security scheme by clicking the scheme name. 
 
 ![ssr3.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/NPuccDsvBiQ)
 
 
-1. If the selected security scheme uses *oauth2* and you have defined scopes, optionally enter the scopes required for API access in the scopes input field. Note that *all* scopes must be authorized in the flow.
+5. If the selected security scheme uses *oauth2* and you have defined scopes, optionally enter the scopes required for API access in the scopes input field. Note that *all* scopes must be authorized in the flow.
 
 ## What's Next?
 
