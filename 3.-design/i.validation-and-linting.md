@@ -1,4 +1,4 @@
-# **Validation and Linting**
+# Validation and Linting
 
 Stoplight lets you know if you are writing invalid YAML, JSON, or Markdown, or if your API description is not in accordance with the recommended convention. Read this guide to find out how to best make use of this. 
 

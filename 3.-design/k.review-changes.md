@@ -1,4 +1,4 @@
-# **Review Changes**
+# Review Changes
 
 The work you put in your API design or documentation might not always be ready to ship. To make sure your API projects work as intended, we recommend you review them first. Learn how to do that on Stoplight in this guide.
 

@@ -1,4 +1,4 @@
-## Create an API
+# Create an API
 
 Once you have created a new project or cloned your existing project from Github, you can either start working on your existing APIs or create a new API. We will discuss how in this guide. 
 

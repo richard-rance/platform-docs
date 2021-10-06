@@ -1,4 +1,4 @@
-## Custom Lint Rules
+# Custom Linting Rules
 
 Validate your API files or enforce your organization's unique style. This guide will show you how. 
 

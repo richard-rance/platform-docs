@@ -1,4 +1,4 @@
-# Using References
+# References
 
 Often at times, you will find structures in your API projects used across multiple resources. You can avoid duplicity and repetition by reusing these components instead of defining them again. Learn how in this guide. 
 

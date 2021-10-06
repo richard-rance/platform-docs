@@ -1,4 +1,4 @@
-# **Examples**
+# Examples
 
 You can enrich your API docs and code samples with examples to help consuming developers understand your API faster. In this guide, we'll discuss how. 
 
