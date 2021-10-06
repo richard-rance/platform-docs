@@ -57,7 +57,7 @@ In the `Display Text` enter the **article** name, and link the `(Hyperlink URL/F
 
 Anchor links help readers jump within articles to a specific section, so they don't have to scroll all the way up or down. Consider it as an interactive table of contents. 
 
-For instance, this tag will take you to top of the page: [**Using Links**]()
+For instance, this tag will take you to top of the page: [**Using Links**](https://meta.stoplight.io/docs/platform/branches/DocsV4/ZG9jOjIzMzk0NjA2-links#what-are-links)
 
 To add **anchor links** in your articles:
 
@@ -96,5 +96,5 @@ To add **external links** in your articles:
 
 Since you are now we aware of how to create your documentation articles, let's head over to 
 
-- **Publishing documentation**
-- **Sharing documentation**
+- **[Redirects](g.redirects.md)**
+- **[Sharing documentation](h.Creating-external-Documentation.md)**
