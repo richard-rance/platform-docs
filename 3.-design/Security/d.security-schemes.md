@@ -1,4 +1,4 @@
-## **Creating Security Schemes**
+## Creating Security Schemes
 
 Creating a security scheme on Stoplight is very easy. You can work on it using our UI Editor or  raw description file on our JSON editor. 
 

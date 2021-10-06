@@ -1,4 +1,4 @@
-# **API Security**
+# API Security
 
 The OpenAPI specification allows API designers to define authentication and authorization as part of their machine-readable API description through security scheme definitions and security requirements. Stoplight supports all OpenAPI security features.
 

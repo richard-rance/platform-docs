@@ -1,4 +1,4 @@
-# **Shared Parameters**
+# Shared Parameters
 
 **Parameters** are the variable part of an HTTP request. They are the options that can be passed along with an endpoint to influence the response. Describing a HTTP request involves talking about the URL, method, body, all of which are covered elsewhere, but everything else is a parameter.
 
