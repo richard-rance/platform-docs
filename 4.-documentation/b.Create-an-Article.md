@@ -2,7 +2,7 @@
 
 An **article** on Stoplight is a page or document that can be added alongside your reference guides to complete your API documentation. 
 
-Articles can include resources like: Getting Started Guides, Tutorials, Use Cases, FAQs, or any artifact that explains how to make use of your API.
+**Articles** can include resources like: Getting Started Guides, Tutorials, Use Cases, FAQs, or any artifact that explains how to make use of your API.
 
 >**Note:** For best practices on how to structure your API documentation, visit our guide: [Documenting your APIs](https://meta.stoplight.io/docs/studio/docs/Documentation/01-getting-started.md). 
 
@@ -62,7 +62,7 @@ As you make additions to an **Article**, you can visualize it live in the **prev
 
 8. With the UI component, you can also add **Code Snippets** or **JSON Schemas** to your documentation. 
 
-## Code Snippets:
+## Code Snippets
 
 Code Snippets in Stoplight come as part of the **HTTP request maker.** The **[Request Maker](../3.-design/g.requestmaker.md)** makes your articles interactive. 
 
@@ -83,7 +83,6 @@ With JSON Schemas you can show in an **article** how **data structures** in your
 9.  Within an article, you can also place images. Learn how to work with images in our detailed guide: **[Adding Images](e.Images.md)** 
 
 10. Once you are done, commit and push the **Article** to your repo. 
-
 
 
 **That's it. You just created your first article on Stoplight. ✍️**
