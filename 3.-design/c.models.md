@@ -1,4 +1,4 @@
-# Working with Models
+# Models
 
 Stoplight's schema editor allows you to easily design and model data structures used by your API. In this guide learn how you can make use of the editor to define your models. 
 
