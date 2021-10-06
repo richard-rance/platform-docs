@@ -87,7 +87,7 @@ With JSON Schemas you can show in an **article** how **data structures** in your
 
 **That's it. You just created your first article on Stoplight. ✍️**
 
-## **What's Next?**
+## What's Next?
 
 Now that you know how to create articles find out what next steps you can follow: 
 
