@@ -1,32 +1,36 @@
----
-tags: [Workspaces]
----
-
 # **Invite Team Members**
+
+The **Stoplight** Platform has been built with a modern API workflow in mind, providing your team with the tools to work on a single platform thought out the API Lifecycle. 
 
 Once you have your **workspace** set up, the next step should be to invite your colleagues and partners to collaborate on API design, view documentation, and access mock servers.
 
 You can invite up to 5 team members on the **Free** and **Starter** plan and more as you scale up. 
-
-## Allowed email domains
-
-The fastest way to onboard your teammates is by configuring an [Allowed email domain](./allowed-email-domains.md) and sending them a link to your Workspace. Read more about allowed email domains [here](./allowed-email-domains.md)!
 
 ## Inviting Team Members to your workspace
 
 1. From your dashboard, click on the **workspace name** on top left of the page. 
 2. Next, select **Members** from the dropdown. This will take you to member settings. 
 
-![Add Members](../assets/images/invite.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c8d92e2-a61b-4785-a14a-7ce83d58457c/Screen_Shot_2021-02-18_at_4.53.04_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c8d92e2-a61b-4785-a14a-7ce83d58457c/Screen_Shot_2021-02-18_at_4.53.04_PM.png)
 
 3. Once you are on the member settings page, click **Invite Members.** 
 
 4.  Enter the work **Email Address** of your teammate, select a **Role** and click **Send Invite.** 
 
-![Add Members](../assets/images/invite-add-member.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4ef8ace-be19-4b60-bf4d-bff5136faf4b/Screen_Shot_2021-02-18_at_4.56.02_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4ef8ace-be19-4b60-bf4d-bff5136faf4b/Screen_Shot_2021-02-18_at_4.56.02_PM.png)
 
 Since you would be inviting different stakeholders from different parts of the API Lifecycle, you can limit and restrict, who gets access to what. 
 
-**Note:**  Learn more about organizing your team and assigning roles here: [**Workspace Roles.**](k.workspace-roles.md) 
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d3a1bc5-7b27-47ba-848d-d1113493530b/Screen_Shot_2021-02-18_at_4.46.43_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d3a1bc5-7b27-47ba-848d-d1113493530b/Screen_Shot_2021-02-18_at_4.46.43_PM.png)
+
+**Note:**  Learn more about organizing your team and assigning roles here: **Workspace Roles.** 
 
 Once you send an invite, your invitation will move to the pending invites section, and your team member will be sent an invite over email. When they click **Accept,** they will be added to your workspace. 
+
+# What's Next?
+
+Now that your team members are on your workspace, you can start collaborating over: 
+
+- **API Design**
+- **API Documentation**
+- **API Development**
