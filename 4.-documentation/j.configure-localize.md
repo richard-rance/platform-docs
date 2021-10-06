@@ -1,4 +1,4 @@
-# Localize Integration
+# Localize
 
 ![localizejs.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/whh8IdUZEkA)
 

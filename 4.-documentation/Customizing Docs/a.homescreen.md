@@ -1,3 +1,3 @@
-# a.homescreen
+# Homescreen
 
 The beginning of an awesome article...

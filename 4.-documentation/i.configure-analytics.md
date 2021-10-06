@@ -1,4 +1,4 @@
-# Google Tag Manager Integration
+# Analytics
 
 ![Google Tag Manager](../assets/images/google-tag-manager.png)
 

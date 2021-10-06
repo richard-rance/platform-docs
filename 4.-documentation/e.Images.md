@@ -1,4 +1,4 @@
-# Adding Images
+# Images
 
 Adding images in Stoplight is now easier than ever. Add images to your project to create beautiful documentation layouts that supplement text content.
 
