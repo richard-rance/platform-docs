@@ -10,7 +10,8 @@ Articles can include resources like: Getting Started Guides, Tutorials, Use Case
 
 Working with **articles** is very easy. We have a built-in Markdown editor with a **live preview** where you can either edit existing articles or start from scratch. 
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11ca7ccc-d661-4b4c-8a64-23e93cb8bcaf/Screen_Recording_2021-02-19_at_8.00.50_PM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11ca7ccc-d661-4b4c-8a64-23e93cb8bcaf/Screen_Recording_2021-02-19_at_8.00.50_PM.mov)
+![article video](../assets/Article1.mov)
+
 
 To render articles we use  [Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md#:~:text=Stoplight%20Flavored%20Markdown%20extends%20CommonMark,object%20in%20a%20specific%20way.), our own version of Markdown rendering engine built on top of [CommonMark.](https://commonmark.org/) 
 
