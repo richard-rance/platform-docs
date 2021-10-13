@@ -1,4 +1,4 @@
-## Work with Local Projects
+# Work with Local Projects
 
 Git is very popular, but not used by everyone. If a different version control system is in use like Mercurial, SVN, SourceSafe, Bazaar, or your team uses another way to keep all their work organized, Stoplight has you covered.
 

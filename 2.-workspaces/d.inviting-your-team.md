@@ -2,7 +2,7 @@
 tags: [Workspaces]
 ---
 
-# **Invite Team Members**
+# Invite Team Members
 
 Once you have your **workspace** set up, the next step should be to invite your colleagues and partners to collaborate on API design, view documentation, and access mock servers.
 
