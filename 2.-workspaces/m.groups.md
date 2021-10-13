@@ -23,19 +23,18 @@ Joining groups and their projects populates your sidebar. Making public groups w
 ## Moving Projects
 There are a couple ways to move projects into a group:
 
-**Option 1: Move a Project to a Group from the Projects List**
+**Option 1: Move a Single Project to a Group from the Projects List**
 
 <!-- focus: top -->
 ![project_list_move_project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/snuSLkPTcRQ 'From the menu in the Projects list')
 
-**Option 2: Move a Project to a Group from the Project Settings**
+**Option 2: Move Multiple Projects to a Group from the Projects List**
 
 <!-- 
 focus: bottom 
 bg: primary 
 -->
-![project_settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gVH1Ilae6yE 'From the project settings page')
-
+![project_settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/0Lt57dlIpDc 'From the Projects list')
 
 ## Group Visibility & Access
 Similar to [Project visibility](l.project-roles.md), Group visibility defines what account type(s) can see or join a group. It also impacts what kinds of projects can belong to that group.
