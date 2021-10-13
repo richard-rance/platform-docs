@@ -4,7 +4,7 @@ tags: [Workspaces]
 
 # **Invite Team Members**
 
-Once you have your **workspace** set up, the next step should be to invite your colleagues and partners to collaborate on API design, view documentation, and access mock servers.
+Once you have your **workspace** set up, you can invite your colleagues and partners to collaborate on API design, view documentation, and access mock servers.
 
 You can invite up to 5 team members on the **Free** and **Starter** plan and more as you scale up. 
 
@@ -14,12 +14,11 @@ The fastest way to onboard your teammates is by configuring an [Allowed email do
 
 ## Inviting Team Members to your workspace
 
-1. From your dashboard, click on the **workspace name** on top left of the page. 
-2. Next, select **Members** from the dropdown. This will take you to member settings. 
+1. From workspace home page, select **Members**. UPDATE SCREENSHOT.
 
 ![Add Members](../assets/images/invite.png)
 
-3. Once you are on the member settings page, click **Invite Members.** 
+3. Once you are on the member settings page, select **Invite Members.** 
 
 4.  Enter the work **Email Address** of your teammate, select a **Role** and click **Send Invite.** 
 
