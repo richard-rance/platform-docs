@@ -10,7 +10,7 @@ Project visibility determines who can view projects within or outside the worksp
 
 **Private**: Only Workspace Members and Guests with direct project access can view the project.
 
-**Internal**: All Workspace Members can view the project. Guests need direct access to the project.
+**Internal**: All Workspace Members can view the project. Guests need direct access to the project. New projects have internal visibility by default. 
 
 **Public**: Everyone including anonymous visitors can view project.
 
@@ -61,8 +61,6 @@ View the full list of permissions for each role below:
 Every Project member can add members to the project with their role or lower. For example, a Project Editor can add a new member with either the Editor role or Viewer role but not with the Admin or Owner role.
 
 To add users to a project, click on the **Share** button (next to **Edit in Studio**). From here, you will be able to add existing Workspace members by their username or invite new members by email.
-
-![Direct Access](../assets/images/direct-access.png)
 
 ### Request Project Permissions
 

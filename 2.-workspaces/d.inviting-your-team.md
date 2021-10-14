@@ -27,3 +27,5 @@ Since you would be inviting different stakeholders from different parts of the A
 **Note:**  Learn more about organizing your team and assigning roles here: [**Workspace Roles.**](k.workspace-roles.md) 
 
 Once you send an invite, your invitation will move to the pending invites section, and your team member will be sent an invite over email. When they click **Accept,** they will be added to your workspace. 
+
+
